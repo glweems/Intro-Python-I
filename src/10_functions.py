@@ -2,6 +2,14 @@
 
 # YOUR CODE HERE
 
+
+def evenOrOdd(num):
+    if (num % 2) == 0:
+        return True
+    else:
+        return False
+
+
 # Read a number from the keyboard
 num = input("Enter a number: ")
 num = int(num)
@@ -10,3 +18,10 @@ num = int(num)
 
 # YOUR CODE HERE
 
+if evenOrOdd(num):
+    msg = "Even!"
+else:
+    msg = "Odd!"
+
+
+print(msg)
